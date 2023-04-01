@@ -49,7 +49,7 @@ public class MainAccountant {
 				confirmation = true;
 				break;
 			} else {
-				System.out.println(consolecolor.RED + "Wrong Username or password" + consolecolor.RESET);
+				System.out.println(consolecolor.RED + "Wrong Email or Password" + consolecolor.RESET);
 			}
 		}
 
@@ -81,13 +81,13 @@ public class MainAccountant {
 		Scanner sc = new Scanner(System.in);
 		System.out.println(consolecolor.YELLOW+"Enter Customer name"+consolecolor.RESET);
 		String name = sc.nextLine();
-		System.out.println(consolecolor.YELLOW+"Enter Customer username"+consolecolor.RESET);
+		System.out.println(consolecolor.YELLOW+"Enter Customer Email"+consolecolor.RESET);
 		String username = sc.nextLine();
 		System.out.println(consolecolor.YELLOW+"Enter Customer Password"+consolecolor.RESET);
 		int Password = sc.nextInt();
 		System.out.println(consolecolor.YELLOW+"Enter Customer Account No"+consolecolor.RESET);
 		int AccountNo = sc.nextInt();
-		System.out.println(consolecolor.YELLOW+"Enter Customer amount"+consolecolor.RESET);
+		System.out.println(consolecolor.YELLOW+"Enter Customer Amount"+consolecolor.RESET);
 		int Amount = sc.nextInt();
 		
 		int p = dao.AddCustomer(name, username, Password, AccountNo, Amount);
