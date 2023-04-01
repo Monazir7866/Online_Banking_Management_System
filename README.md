@@ -1,5 +1,11 @@
 # eager-porter-575
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/logo.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/logo.png">
+  <img alt="ER_Diagram" src="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/logo.png">
+</picture>
+ 
 
 # Online Banking System
 **This is a simple online banking system that allows customers to perform transactions, manage their accounts, and apply for loans. Administrators can also manage customer accounts and view transaction reports.**
