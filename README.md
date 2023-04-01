@@ -51,7 +51,6 @@ private String email;
 
 private String password;
 
-insert into Accountant values (12345,'Rishav','rishav@gmail.com',123);
 
 Customer:
 
