@@ -130,7 +130,7 @@ public class MainAccountant {
 		int AccountNo = sc.nextInt();
 		int i=dao.RemoveCustomer(AccountNo);
 		if(i==1) {
-			System.out.println(consolecolor.GREEN+"=-=-=-=-=-=-=-=-Delete your "+AccountNo+" detail-=--=-=-=-=-="+consolecolor.RESET);
+			System.out.println(consolecolor.RED+"Account NO=>("+consolecolor.RESET+consolecolor.RED+AccountNo+") is Successfully Deleted"+consolecolor.RESET);
 		}
 		else {
 			System.out.println(consolecolor.RED+"=-=-=-=-=-=-=-=-=-Enter Correct Account No -=--=-=-=-=-=-=-="+consolecolor.RESET);

@@ -62,7 +62,8 @@ public class MainCustomer {
 						+ "| 3.Open saving/loan account                                |\r\n"
 						+ "| 4.Deposite Money                                          |\r\n"
 						+ "| 5.Transaction history                                     |\r\n"
-						+ "| 6. Exit  				   	           |\r\n"
+						+ "| 6.Delete Your Acount                                      |\r\n"
+						+ "| 7. Exit  				   	           |\r\n"
 						+ "+-----------------------------------------------------------+" + consolecolor.RESET);
 		System.out.println(consolecolor.CYAN+"Enter Number according To Your Work" + consolecolor.RESET);
 		int accWork = sc.nextInt();
@@ -100,6 +101,27 @@ public class MainCustomer {
 		}
 
 	}
+//	public void addCustomer() throws  CustomerException {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println(consolecolor.YELLOW+"Enter Customer name"+consolecolor.RESET);
+//		String name = sc.nextLine();
+//		System.out.println(consolecolor.YELLOW+"Enter Customer username"+consolecolor.RESET);
+//		String username = sc.nextLine();
+//		System.out.println(consolecolor.YELLOW+"Enter Customer Password"+consolecolor.RESET);
+//		int Password = sc.nextInt();
+//		System.out.println(consolecolor.YELLOW+"Enter Customer Account No"+consolecolor.RESET);
+//		int AccountNo = sc.nextInt();
+//		System.out.println(consolecolor.YELLOW+"Enter Customer amount"+consolecolor.RESET);
+//		int Amount = sc.nextInt();
+//		
+//		int p = dao.AddCustomer(name, username, Password, AccountNo, Amount);
+//		if (p == 1) {
+//			System.out.println(
+//					consolecolor.GREEN_BOLD+ "Customer Data Inserted.." + consolecolor.RESET);
+//		} else {
+//			System.out.println(consolecolor.RED+"Wrong Information"+consolecolor.RESET);
+//		}
+//	}
 	public void transactionhistory () throws TransactionException {
 	List<Transaction> list=s.CheckTransactionHistory(this.username);
 	list.forEach(s->System.out.println(consolecolor.PURPLE_BOLD+s+consolecolor.RESET));

@@ -50,8 +50,18 @@ public class Main {
 						if (cw == 1) {
 							cdao.SenderToMoney();
 						} else if (cw == 2) {
+							dao.UpdateExistingCustomer();
+						} else if (cw == 3) {
+							dao.addCustomer();
+						}else if (cw == 4) {
+							cdao.SenderToMoney();
+						}else if (cw == 5) {
 							cdao.transactionhistory();
-						} else {
+						}else if (cw == 6) {
+							dao.RemoveCustomerAccNo();
+						}
+						
+						else {
 							break;
 						}
 					}
