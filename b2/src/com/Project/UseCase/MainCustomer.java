@@ -29,7 +29,7 @@ public class MainCustomer {
 		boolean con1 = false;
 		Scanner sc = new Scanner(System.in);
 		while (true) {
-			System.out.println(consolecolor.YELLOW_BOLD + "enter Your Username" + consolecolor.RESET);
+			System.out.println(consolecolor.YELLOW_BOLD + "enter Your Email" + consolecolor.RESET);
 			String Username = sc.next();
 			System.out.println(consolecolor.YELLOW_BOLD + "enter Your Password" + consolecolor.RESET);
 			int Password = sc.nextInt();

@@ -49,7 +49,7 @@ public class MainAccountant {
 				confirmation = true;
 				break;
 			} else {
-				System.out.println(consolecolor.RED + "Wrong your Username or password" + consolecolor.RESET);
+				System.out.println(consolecolor.RED + "Wrong Username or password" + consolecolor.RESET);
 			}
 		}
 
@@ -59,7 +59,7 @@ public class MainAccountant {
 	public int AccoutentWorkType() {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print(consolecolor.PURPLE_BACKGROUND_BRIGHT);
+		System.out.print(consolecolor.BLACK_BACKGROUND);
 		System.out.println(consolecolor.BLUE_BOLD+"+-------------------------------------------------------+\r\n"
 				+ "|  ENTER YOUR NUMBER                             	|\r\n"
 				+ "+------------------------------------------------------+|\r\n"
@@ -72,7 +72,7 @@ public class MainAccountant {
 				+ "| 6.Taking care of deposit and withdrawal operations 	|\r\n"
 				+ "| 7.Exit                                                |\r\n"
 				+ "+-------------------------------------------------------+" + consolecolor.RESET);
-		System.out.println("Enter your Number according Your Work");
+		System.out.println("Enter Number according To Your Work");
 		int accWork = sc.nextInt();
 		return accWork;
 	}
