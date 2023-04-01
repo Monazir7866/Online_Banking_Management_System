@@ -42,7 +42,7 @@ public class MainCustomer {
 				con1 = true;
 				break;
 			} else {
-				System.out.println(consolecolor.RED + "Wrong your email or Password" + consolecolor.RESET);
+				System.out.println(consolecolor.RED + "Wrong email or Password" + consolecolor.RESET);
 			}
 		}
 
@@ -57,11 +57,14 @@ public class MainCustomer {
 						+ "|                     ENTER YOUR NUMBER                     |\r\n"
 						+ "+-----------------------------------------------------------+\r\n"
 						+ "|                                               	    |\r\n"
-						+ "| 1.Transfer the money from this account to other account   |\r\n"
-						+ "| 2.Transaction history                                     |\r\n"
-						+ "| 3. Exit  				   	            |\r\n"
+						+ "| 1.Transfer the money                                      |\r\n"
+						+ "| 2.Update Your Credential                                  |\r\n"
+						+ "| 3.Open saving/loan account                                |\r\n"
+						+ "| 4.Deposite Money                                          |\r\n"
+						+ "| 5.Transaction history                                     |\r\n"
+						+ "| 6. Exit  				   	           |\r\n"
 						+ "+-----------------------------------------------------------+" + consolecolor.RESET);
-		System.out.println(consolecolor.CYAN+"Enter your Number accoding To Your Work" + consolecolor.RESET);
+		System.out.println(consolecolor.CYAN+"Enter Number according To Your Work" + consolecolor.RESET);
 		int accWork = sc.nextInt();
 		return accWork;
 	}

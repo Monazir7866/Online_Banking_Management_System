@@ -1,47 +1,56 @@
-                       Online Banking System
+                           Online Banking System
 
 Problem Description:
-The objective of this project is to maintain the accounts like saving account, withdrawing, depositing money and applying loan to the user. Bank provides account number to the customer for dealing transactions in the bank. At first a user registers himself/herself as customer. After that account can be opened. A customer can open more than one account.
-Users of this project are
-• Accountant
-• Customer
-Roles of Accountant are
-• Login using his/her email and password
-• Adding new account for customer
-• Editing already available account
-• Removing the account by using account number
-• Viewing particular account details by giving account number
-• Viewing all the account details
-• Taking care of deposit and withdrawal operations
+The objective of this project is to maintain the accounts like saving accounts,
+withdrawing, depositing money and applying for loans to the user. Bank provides
+account numbers to the customer for dealing transactions in the bank. At first, a user
+registers himself/herself as a customer. After that account can be opened. A customer
+can open more than one account.
+Users of this project
+Administrator
+Customer
+The Roles of Accountant:
+Note: Don't create a table to store the credentials of the Accountant. Keep the
+Username and password fixed for accountant (like username: ‘admin’ password:
+‘admin’)
+Login using his/her username and password
+View information about all customers
+Viewing particular customer details by customer_id
 
-Roles of Customer are
-• Login using his/her email and password
-• Transfer the money from his account to other account
-• Checking the transaction history
+Online Banking System 2
+
+View information about all accounts
+Viewing particular account details by account_number
+Change the status of account from active to inoperative if no trsnaction for last 24
+months and vice versa
+view all inoperative accounts
+view all closed accounts
+Can see the transaction report for a day range for all accounts.
+See all high magnitude transaction for a day i.e. only those transaction in which
+more than 49999 is transferred
+Logout his account
 
 
-+ "|  ENTER YOUR NUMBER                            			|\r\n"
-				+ "+-----------------------------------------------------------+|\r\n"
-				+ "|                                               			| \r\n"
-				+ "| 1.Add new account                      			    |\r\n"
-				+ "| 2.UpdateExistingCustomer account                      	|\r\n"
-				+ "| 3.Remove the account by using account number  			|\r\n"
-				+ "| 4.Viewing particular account details account number   	|\r\n"
-				+ "| 5.Viewing all the account details          			|\r\n"
-				+ "| 6.Taking care of deposit and withdrawal operations 	|\r\n"
-				+ "| 7.Exit                                    				|\r\n"
-				+ "+-----------------------------------------------------------+" + consolecolor.RESET);
-				
-					consolecolor.GREEN + "+-----------------------------------------------------------+\r\n"
-						+ "|  ENTER YOUR NUMBER                            			|\r\n"
-						+ "+-----------------------------------------------------------+\r\n"
-						+ "|                                               			| \r\n"
-						+ "| 1.Transfer the money from his account to other account    |\r\n"
-						+ "| 2.Checking the transaction history                      	|\r\n"
-						+ "| 3. Exit  													|\r\n"
-						+ "+-----------------------------------------------------------+" + consolecolor.RESET);
+The Roles of the Customer:
+Can register with new account using information customer_id, name, mobile,
+address, username, password
+Login his account
+update details like name, mobile, address (but not username)
+can change password
+Sign in to account
+Open account saving/loan account
+Deposite & withdraw money to saving/loan account
+Transfer the money from his account to another account (using account number
+only)
+Checking the transaction history for a date range
+close his saving/loan account
+Logout his account
+delete the account
+Note:
 
- ****************Javabeans******************
+
+
+ Bean Class
  
  Transaction:
     private int Transaction_Id;
