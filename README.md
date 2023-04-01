@@ -56,5 +56,5 @@ Balance int ,
 date varchar(60));*
 
 
-![alt text](ER.png "ER_Diagram")
+![alt text](br/ER.png "ER_Diagram")
 
