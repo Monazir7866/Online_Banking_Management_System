@@ -1,10 +1,7 @@
 # eager-porter-575
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/logo.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/logo.png">
-  <img alt="ER_Diagram" src="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/logo.png">
-</picture>
+![logo](https://user-images.githubusercontent.com/25690078/229357682-e00ee5e8-5d8f-45e2-a45f-291395c36813.png)
+
  
 
 # Online Banking System
@@ -61,14 +58,9 @@ Receiver varchar(40),
 Balance int ,
 date varchar(60));*
 
-# Flow Chart
 
-![flowchart](https://user-images.githubusercontent.com/70317048/221799200-50129ae4-3bb4-4669-b951-8afa21594601.png)
 
 # ER_DIAGRAM
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/ER.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/ER.png">
-  <img alt="ER_Diagram" src="https://github.com/Monazir7866/eager-porter-575/blob/main/b2/ER.png">
-</picture>
+
+![ER](https://user-images.githubusercontent.com/25690078/229357672-cdf97575-a768-4ef3-8676-af015c71db97.png)
 
