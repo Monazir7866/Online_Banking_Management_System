@@ -1,4 +1,4 @@
-# eager-porter-575
+# Online_Banking_Management_System
 
 ![logo](https://user-images.githubusercontent.com/25690078/229357682-e00ee5e8-5d8f-45e2-a45f-291395c36813.png)
 
